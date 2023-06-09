@@ -1,0 +1,219 @@
+.navbar {
+    background-color: rgba(0, 0, 0,0.9);
+    overflow: hidden;
+    color:white;
+}
+.navbar li{
+    padding :0 15px;
+}
+.navbar li a {
+    color: white;
+}
+.navbar a:hover {
+    color: #ff7300;
+    font-weight: bold;
+}
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/mountain.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20% 10%;
+    justify-content: center;
+}
+
+.header h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.header p {
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+}
+
+.button {
+    background-color: #ff7300;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 7px 40px;
+    margin: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.button:hover{
+    border: 1px solid #ff7300;
+    background: none;
+    color: #ff7300;
+    font-weight: bold;
+}
+
+.about {
+    padding: 100px 50px;
+}
+
+.about-story h4 {
+    color: #ff7300;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-story p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.about-img img{
+    width: 250px;
+    border: 8px solid #edecec; 
+    border-radius: 4px; 
+}
+
+.about-info h4{
+    color: #ff7300;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.info {
+    color: #6c757d;
+    font-size: 18px;
+}
+
+.info li {
+    padding-bottom: 10px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.resume {
+    background-color: #e3e3e3;
+    padding: 80px 50px;
+}
+
+
+.resume h4 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.resume h5{
+    color: #ff7300;
+}
+
+.resume p{
+    font-size: 16px;
+    color: #6c757d;
+    padding: 0;
+    margin: 0;
+}
+
+.resume .card-body{
+    font-size: 14px;
+}
+
+.line {
+    margin: auto;
+    display: block;
+    width: 20%;
+    height: 1.5px;
+    background-color: rgb(255, 98, 0);
+}
+
+.card {
+    margin: 50px 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-header {
+    background-color: white;
+    border: none;
+    padding-top: 20px;
+}
+
+.card-header .col-2 {
+    color: #d4d3d3;
+    border-right: 2px solid #ff7300;
+    height: 50%;
+}
+
+.experiences h5{
+    font-size: 18px;
+    margin: 0;
+    color: #ff7300;
+    padding-top: 5px;
+}
+.experiences p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev{
+    display: flex;
+}
+
+@media (min-width:768px) {
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next{
+        transform: translateX(25%);
+    }
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev{
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start{
+    transform: translateX(0);
+}
+
+.galery {
+    padding: 80px 0;
+}
+.galery p{
+    padding: 5px 200px;
+    text-align: center;
+}
+
+.contact {
+    padding: 10px 50px;
+}
+
+.contact p{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.contact-button{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background-color: #d4d3d3;
+    border-radius: 100%;
+    color: white;
+    padding: 20px 26px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #b9b9b9;
+    border-radius: 100%;
+    color: white;
+    padding: 20px 26px;
+    font-size: 24px;
+    cursor: pointer;
+}
